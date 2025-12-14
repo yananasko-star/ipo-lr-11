@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "source": "GitHub Trending",
+    "url": "https://github.com/trending",
+    "collected_at": "2024-01-15 14:30:00",
+    "total_repositories": 10
+  },
+  "repositories": [
+    {
+      "rank": 1,
+      "name": "microsoft / vscode",
+      "full_name": "microsoft/vscode",
+      "stars": 150342,
+      "url": "https://github.com/microsoft/vscode",
+      "description": "Visual Studio Code"
+    },
+    {
+      "rank": 2,
+      "name": "facebook / react",
+      "full_name": "facebook/react",
+      "stars": 210987,
+      "url": "https://github.com/facebook/react",
+      "description": "A JavaScript library for building user interfaces"
+    },
+    {
+      "rank": 3,
+      "name": "tensorflow / tensorflow",
+      "full_name": "tensorflow/tensorflow",
+      "stars": 175432,
+      "url": "https://github.com/tensorflow/tensorflow",
+      "description": "An Open Source Machine Learning Framework for Everyone"
+    },
+    {
+      "rank": 4,
+      "name": "vuejs / vue",
+      "full_name": "vuejs/vue",
+      "stars": 204123,
+      "url": "https://github.com/vuejs/vue",
+      "description": "Vue.js is a progressive, incrementally-adoptable JavaScript framework for building UI on the web."
+    },
+    {
+      "rank": 5,
+      "name": "facebook / react-native",
+      "full_name": "facebook/react-native",
+      "stars": 110456,
+      "url": "https://github.com/facebook/react-native",
+      "description": "A framework for building native apps with React."
+    }
+  ]
+}
