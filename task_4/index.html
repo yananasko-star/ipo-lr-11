@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub Trending Repositories</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+            margin: 0;
+            padding: 20px;
+            min-height: 100vh;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+        }
+        
+        h1 {
+            color: #2d3748;
+            text-align: center;
+            margin-bottom: 10px;
+        }
+        
+        .subtitle {
+            text-align: center;
+            color: #4a5568;
+            margin-bottom: 30px;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        
+        th {
+            background-color: #4299e1;
+            color: white;
+            padding: 12px;
+            text-align: left;
+        }
+        
+        td {
+            padding: 12px;
+            border-bottom: 1px solid #e2e8f0;
+        }
+        
+        tr:nth-child(even) {
+            background-color: #f7fafc;
+        }
+        
+        tr:hover {
+            background-color: #ebf8ff;
+        }
+        
+        .source-link {
+            display: block;
+            text-align: center;
+            margin-top: 30px;
+            padding: 10px;
+            background-color: #48bb78;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            width: 300px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        .source-link:hover {
+            background-color: #38a169;
+        }
+        
+        .footer {
+            text-align: center;
+            margin-top: 30px;
+            color: #718096;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>GitHub Trending Repositories</h1>
+        <div class="subtitle">Популярные репозитории с GitHub</div>
+        
+        <table>
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Репозиторий</th>
+                    <th>Звезды</th>
+                    <th>Описание</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>microsoft / vscode</td>
+                    <td>150,342 ⭐</td>
+                    <td>Visual Studio Code</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>facebook / react</td>
+                    <td>210,987 ⭐</td>
+                    <td>A JavaScript library for building user interfaces</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>tensorflow / tensorflow</td>
+                    <td>175,432 ⭐</td>
+                    <td>An Open Source Machine Learning Framework for Everyone</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>vuejs / vue</td>
+                    <td>204,123 ⭐</td>
+                    <td>Vue.js is a progressive JavaScript framework</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>facebook / react-native</td>
+                    <td>110,456 ⭐</td>
+                    <td>A framework for building native apps with React</td>
+                </tr>
+            </tbody>
+        </table>
+        
+        <a href="https://github.com/trending" target="_blank" class="source-link">
+            📊 Посмотреть оригинальный источник на GitHub
+        </a>
+        
+        <div class="footer">
+            Страница создана для задания 4 лабораторной работы №11
+        </div>
+    </div>
+</body>
+</html>
